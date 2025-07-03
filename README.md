@@ -65,7 +65,20 @@ python3 -m scripts.data_population_retreieval
 
 - Prints the query results to the console
 
-### Note: if you get an error, make sure you have a .env file, or create one based on .env.example.
+## Note: if you get an error, make sure you have a .env file, or create one based on .env.example.
+
+### 🧪 View Data in InfluxDB UI
+
+You can also inspect the data at the UI level by visiting:
+
+[http://localhost:8086](http://localhost:8086)
+
+- **Username:** `user`  
+- **Password:** `userpass`
+
+Once logged in, you should see something like this:
+
+![InfluxDB Snapshot](images/snapshot.png)
 
 ## 📜 License
 
