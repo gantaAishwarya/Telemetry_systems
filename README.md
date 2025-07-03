@@ -43,7 +43,7 @@ Install all required Python packages by running:
 pip install -r requirements.txt
 ```
 
-### 3. Populate, Query, and Test the Data
+#### 3. Populate, Query, and Test the Data
 
 Run the data population and retrieval script from root directory by executing:
 
@@ -51,19 +51,19 @@ Run the data population and retrieval script from root directory by executing:
 python3 -m scripts.data_population_retreieval
 ```
 
-## What the script does:
+##### What the script does:
 
-Adds 2 assets
+- Adds 2 assets
 
-Each asset contains 3 channels
+- Each asset contains 3 channels
 
-Each channel has 60 samples (collected at 1Hz for 1 minute)
+- Each channel has 60 samples (collected at 1Hz for 1 minute)
 
-Queries asset data
+- Queries asset data
 
-Filters data by time range or channel
+- Filters data by time range or channel
 
-Prints the query results to the console
+- Prints the query results to the console
 
 ### Note: if you get an error, make sure you have a .env file, or create one based on .env.example.
 
