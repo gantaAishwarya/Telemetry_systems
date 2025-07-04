@@ -1,16 +1,10 @@
 import logging
 import sys
-import os
 from datetime import datetime
 from typing import Tuple
+import os 
 
 logger = logging.getLogger(__name__)
-
-# Defining shared variables
-Timestamp = datetime
-Value = float
-Sample = Tuple[Timestamp, Value]
-
 
 def setup_logger():
     logging.basicConfig(
